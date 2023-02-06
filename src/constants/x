@@ -1,0 +1,42 @@
+
+  // useEffect(() => {
+  //   const getCategories = async () => {
+  //     let categoriesData = await getAvailableCategories();
+  //     setCategories(categoriesData);
+  //   };
+  //   getCategories();
+  //   const getData = async () => {
+  //     setLoading(true);
+  //     let currentEvent = await getEventByEventId(id);
+  //     currentEvent.date = new Date(currentEvent.date);
+  //     //format(currentEvent.date, "MMMM d, yyyy h:mm a");
+  //     await formik.setValues(currentEvent);
+  //     setExistedEvent(true);
+  //     setLoading(false);
+  //   };
+  //   if (id) {
+  //     getData();
+  //   } else {
+  //     setExistedEvent(false);
+  //     formik.resetform();
+  //   }
+  // }, [id]);
+
+  // const handleCancelToggle = async (event) => {
+  //   //confirmOpen, setConfirmOpen
+  //   setConfirmOpen(false);
+  //   setLoadingCancel(true);
+  //   try {
+  //     await cancelEventToggle(formik.isCancelled, formik.docId);
+  //     setLoadingCancel(false);
+  //   } catch (error) {
+  //     setLoadingCancel(false);
+  //     toast.error(error.message);
+  //   }
+  // };
+
+  // if (loading) return <Loading />;
+  // if (formik.values.category === "else") {
+  //   formik.setValues({ category: "" });
+  //   setAddNewCategory(true);
+  // }

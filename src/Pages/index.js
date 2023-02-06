@@ -1,0 +1,14 @@
+export { default as Dashboard } from "./Dashboard";
+export { default as Pricing } from "./Pricing";
+export { default as About } from "./About";
+export { default as SinIn } from "./SinIn";
+export { default as SignUp } from "./SignUp";
+export { default as ForgetPassword } from "./ForgetPassword";
+export { default as Account } from "./Account";
+export { default as Profile } from "./Profile";
+export { default as AddBook } from "./AddBook";
+export { default as AddCategory } from "./AddCategory";
+export { default as Category } from "./Category";
+export { default as NotFound } from "./NotFound";
+export { default as Book } from "./Book";
+export { default as Features } from "./Features";
